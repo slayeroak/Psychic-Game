@@ -5,22 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Psychic Game</title>
+
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     
+    <!-- header -->
     <header>
-        <h1>The Psychic Game</h1>
+        <div>
+            <h1>The Psychic Game</h1>
+        </div>
     </header>
     
-
-    <h2>Guess what letter I am thinking of!</h2>
-
-    <ul>
-        <li>Wins:</li>
-        <li>Losses:</li>
-        <li>Guesses Left:</li>
-        <li>Your Guesses So Far:</li>
-    </ul>
+    <div class="container">
+        <h2>Guess what letter I am thinking of!</h2>
+        <div class="row">
+            <ul id="space" class="list-group">
+                <li class="list-group-item" id="wins">Wins:</li>
+                <li class="list-group-item" id="lose">Losses:</li>
+                <li class="list-group-item" id="guessesLeft">Guesses Left:</li>
+                <li class="list-group-item" id="letters">Your Guesses So Far:</li>
+            </ul>
+        </div>
+    </div>
 
     <footer>@slayeroak</footer>
     
